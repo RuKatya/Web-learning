@@ -6,10 +6,12 @@ function HomePage() {
   return (
     <>
       <div className="mainContainer">
-        <h1 style={{ fontSize: "3rem" }}>Web Learning</h1>
-        <Link to="startFromInfo" smooth={true}>
-          С чего начать?
-        </Link>
+        <div>
+          <h1 style={{ fontSize: "3rem" }}>Web Learning</h1>
+          <Link to="startFromInfo" isDynamic={true} smooth={true}>
+            С чего начать?
+          </Link>
+        </div>
       </div>
       <StartFrom />
     </>

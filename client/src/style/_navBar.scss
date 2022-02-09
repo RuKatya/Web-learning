@@ -1,13 +1,14 @@
 .navBar {
     background-color: $backgroundPrimary;
     color: white;
-    padding: 1.5% 2%;
+    padding: 0.8% 2%;
     width: 100%;
     position: fixed;
     top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 1;
 
     a {
         color: $linksColor;

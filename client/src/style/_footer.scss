@@ -1,0 +1,14 @@
+.footerBar {
+    background-color: $backgroundPrimary;
+    padding: 0.5% 2%;
+
+    a {
+        color: $linksColor;
+        margin: 0.3% 0%;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+    }
+}

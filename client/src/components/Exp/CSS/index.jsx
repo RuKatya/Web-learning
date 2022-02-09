@@ -1,9 +1,13 @@
 import React from "react";
 
-function JSPage() {
+function CSSPage() {
   return (
     <>
-      <h1>JS</h1>
+      <h1>CSS</h1>
+      <h1>CSS</h1>
+      <h1>CSS</h1>
+      <h1>CSS</h1>
+      <h1>CSS</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur,
         fugit! Accusantium aut doloremque natus architecto quo ullam dignissimos
@@ -14,4 +18,4 @@ function JSPage() {
   );
 }
 
-export default JSPage;
+export default CSSPage;

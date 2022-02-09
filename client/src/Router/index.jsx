@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
 //PAGES
-import HomePage from "../HomePage";
-import HTMLPage from "../Exp/HTML";
-import CSSPage from "../Exp/CSS";
-import JSPage from "../Exp/JavaScript";
+import HomePage from "../components/HomePage";
+import HTMLPage from "../components/Exp/HTML";
+import CSSPage from "../components/Exp/CSS";
+import JSPage from "../components/Exp/JavaScript";
 
 function RouterPage() {
   return (
@@ -13,7 +13,7 @@ function RouterPage() {
         <Route path="/" element={<HomePage />} />
         <Route path="html" element={<HTMLPage />} />
         <Route path="css" element={<CSSPage />} />
-        <Route path="javascript" element={<JSPage />} />
+        <Route path="js" element={<JSPage />} />
       </Routes>
     </>
   );

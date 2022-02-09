@@ -8,7 +8,7 @@ function NavBar() {
       <div className="navBar__links">
         <Link to="html">HTML</Link>
         <Link to="css">CSS </Link>
-        <Link to="javascript"> JAVASCRIPT </Link>
+        <Link to="js"> JAVASCRIPT </Link>
       </div>
     </nav>
   );
