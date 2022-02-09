@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92f58fcd.css",
+    "main.js": "/static/js/main.50dd285b.js",
+    "static/media/arnold-francisca-f77Bh3inUpE-unsplash.jpg": "/static/media/arnold-francisca-f77Bh3inUpE-unsplash.467ac2ac7770ba3137ef.jpg",
+    "index.html": "/index.html",
+    "main.92f58fcd.css.map": "/static/css/main.92f58fcd.css.map",
+    "main.50dd285b.js.map": "/static/js/main.50dd285b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92f58fcd.css",
+    "static/js/main.50dd285b.js"
+  ]
+}
