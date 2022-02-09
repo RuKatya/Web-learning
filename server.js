@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 try {
     app.listen(PORT, () => {
-        console.log(color.bgGreen.white(`listen on http://localhost:${PORT}`))
+        console.log(color.bgGreen.white(`the listen on http://localhost:${PORT}`))
     })
 } catch (err) {
     console.log(color.red(err))
