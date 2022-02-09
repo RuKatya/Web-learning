@@ -1,0 +1,61 @@
+.mainContainer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)60%), url('../../public/img/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+
+    h1,
+    h2 {
+        color: white;
+    }
+
+    h2 {
+        cursor: pointer;
+    }
+
+    a {
+        cursor: pointer;
+        font-size: 1.7rem;
+        color: $linksColor;
+    }
+}
+
+.startFromInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: stretch;
+    align-items: stretch;
+    height: 92vh;
+
+    div {
+        display: flex;
+        justify-content: space-evenly; // justify-content: center;
+        align-items: center;
+        // color: $textColor;
+        border: 1px solid black;
+        padding: 1%;
+        margin: 1%;
+    }
+
+    a {
+        // color: $linksColor;
+        font-size: 2.1rem;
+    }
+
+    div:nth-child(n+1) {
+        // background-color: #31e6d9c9;
+    }
+
+    div:nth-child(n+3) {
+        // background-color: #1c3a38c9;
+    }
+
+    div:nth-child(n+5) {
+        // background-color: #ffffffc9;
+    }
+}
