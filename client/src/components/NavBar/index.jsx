@@ -10,17 +10,17 @@ function NavBar() {
   function hendleShown() {
     setIsShownMenuBtn(!isShownMenuBtn);
 
-    if (isShownMenuBtn === true) {
-      setIsShownCloseBtn(false);
-    } else if (isShownMenuBtn === false) {
-      setIsShownCloseBtn(true);
-    }
+    // if (isShownMenuBtn === true) {
+    //     setIsShownCloseBtn(false);
+    //   } else if (isShownMenuBtn === false) {
+    //     setIsShownCloseBtn(true);
+    //   }
   }
 
   useEffect(() => {
-    if (window.screen.width >= 768) {
+    if (window.screen.width > 768) {
       setIsShownMenuBtn(true);
-      setIsShownCloseBtn(false);
+      // setIsShownCloseBtn(false);
     }
   }, []);
 

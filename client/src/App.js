@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 
 function App() {
   console.log(`Hello you!`)
+  console.log(navigator)
   return (
     <>
       <NavBar />
