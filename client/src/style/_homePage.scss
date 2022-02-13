@@ -1,38 +1,36 @@
 .mainContainer {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)60%), url('../../public/img/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)60%), url('../../public/img/mobile1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     div {
+        width: 80%;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.1);
         padding: 2% 3%;
         border-radius: $borderRadius;
-    }
 
-    
-    h1,
-    h2 {
-        color: white;
-    }
-
-    h2 {
-        cursor: pointer;
+        h1 {
+            color: white;
+            font-size: 1.5rem;
+            padding: 5% 0%;
+        }
     }
 
     a {
         cursor: pointer;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         color: $linksColor;
     }
 }
 
+//START FROM
 .startFromInfo {
     text-align: center;
     position: relative;
@@ -41,7 +39,7 @@
         display: flex;
         justify-content: center;
         margin: 2% 0%;
-        height: 80vh;
+        height: 110vh;
 
         &__line {
             width: 0.2%;
@@ -51,7 +49,7 @@
             &HTML,
             &CSS,
             &JS {
-                width: 1.5%;
+                width: 5%;
                 background-color: black;
                 height: 0.4vh;
                 border-radius: $borderRadius;
@@ -78,22 +76,22 @@
         &CSS,
         &JS {
             position: absolute;
-            font-size: 2rem;
+            font-size: 1.2rem;
         }
 
         &HTML {
-            top: 18%;
-            left: 53%;
+            top: 18.5%;
+            left: 55%;
         }
 
         &CSS {
-            top: 50%;
-            left: 44%;
+            top: 50.5%;
+            left: 32%;
         }
 
         &JS {
-            top: 80%;
-            left: 53%;
+            top: 80.5%;
+            left: 55%;
         }
     }
 
@@ -101,12 +99,13 @@
     &__css,
     &__js {
         background-color: rgba(148, 185, 255, 0.6);
-        width: 20%;
+        width: 40%;
         padding: 1%;
         border-radius: $borderRadius;
         position: absolute;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        // grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         justify-items: center;
         align-items: center;
 
@@ -115,27 +114,28 @@
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
 
         img {
-            width: 70%;
+            width: 100%;
+            height: 100%;
             grid-row: 1/3;
         }
     }
 
     &__html {
-        top: 7%;
-        left: 26%;
+        top: 1%;
+        left: 4%;
     }
 
     &__css {
-        top: 40%;
-        left: 52%;
+        top: 32%;
+        left: 55%;
     }
 
     &__js {
-        top: 70%;
-        left: 26%;
+        top: 60%;
+        left: 4%;
     }
 }
