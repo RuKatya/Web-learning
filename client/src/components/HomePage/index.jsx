@@ -7,7 +7,7 @@ function HomePage() {
     <>
       <div className="mainContainer">
         <div>
-          <h1 style={{ fontSize: "3rem" }}>Web Learning</h1>
+          <h1>Web Learning</h1>
           <Link to="startFromInfo" isDynamic={true} smooth={true}>
             С чего начать?
           </Link>

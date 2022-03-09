@@ -13,7 +13,7 @@ function RouterPage() {
         <Route path="/" element={<HomePage />} />
         <Route path="html" element={<HTMLPage />} />
         <Route path="css" element={<CSSPage />} />
-        <Route path="js" element={<JSPage />} />
+        <Route path="javascript" element={<JSPage />} />
       </Routes>
     </>
   );

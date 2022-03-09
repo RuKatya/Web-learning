@@ -16,7 +16,7 @@ function StartFrom() {
         <Link to="html" className="startFromInfo__titleHTML">
           <b>HTML</b>
         </Link>
-        <Link to="html" className="startFromInfo__html">
+        <Link to="html" className="startFromInfo__textHTML">
           <img src="./img/HTML.png" alt="HTML Icon" />
           <p>Узнайте базовые теги для сайта. Постройте собственую разметку.</p>
         </Link>
@@ -25,7 +25,7 @@ function StartFrom() {
         <Link to="css" className="startFromInfo__titleCSS">
           <b>CSS</b>
         </Link>
-        <Link to="css" className="startFromInfo__css">
+        <Link to="css" className="startFromInfo__textCSS">
           <img src="./img/CSS.png" alt="CSS Icon" />
           <p>Узнайте базовые теги для сайта. Постройте собственую разметку.</p>
         </Link>
@@ -34,7 +34,7 @@ function StartFrom() {
         <Link to="js" className="startFromInfo__titleJS">
           <b>JavaScript</b>
         </Link>
-        <Link to="js" className="startFromInfo__js">
+        <Link to="js" className="startFromInfo__textJS">
           <img src="./img/JS.png" alt="JS Icon" />
           <p>Узнайте базовые теги для сайта. Постройте собственую разметку.</p>
         </Link>
