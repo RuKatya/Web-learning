@@ -1,0 +1,141 @@
+.sideBar {
+    position: sticky;
+    top: 0;
+
+    &__subtitle {
+        background-color: rgb(214, 214, 214);
+        color: black;
+        padding: 0% 8%;
+
+
+        &--toggleOpen {
+            width: 5%;
+            padding: 3% 2%;
+            border-right: 1px solid black;
+            font-weight: bold;
+        }
+    }
+
+    &__nav {
+        background-color: rgb(228, 225, 225);
+        box-shadow: 0px 0px 5px grey;
+        width: 80%;
+        position: absolute;
+        top: 0;
+
+
+        &--toggleBtn {
+            width: 20%;
+            padding: 3% 2%;
+            text-align: center;
+            border: none;
+            background-color: rgba(255, 255, 255, 0);
+            font-weight: bold;
+        }
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        // overflow-y: scroll;
+        // height: 50vh;
+
+        a {
+            margin: 5%;
+        }
+    }
+}
+
+@media (min-width:$smallTablet) {
+    .sideBar {
+        &__subtitle {
+            padding: 0% 4.5%;
+
+
+            &--toggleOpen {
+                width: 1%;
+                padding: 2% 4% 2% 2%;
+            }
+        }
+
+        &__nav {
+            width: 50%;
+            position: absolute;
+            top: 0;
+
+            &--toggleBtn {
+                padding: 5% 13%;
+                width: 10%;
+            }
+        }
+
+        &__links {
+            a {
+                margin: 5% 10%;
+            }
+        }
+    }
+}
+
+
+@media (min-width: $regularTablet) {
+    .sideBar {
+        &__subtitle {
+            &--toggleOpen {
+                padding: 2% 3% 2% 1%;
+            }
+        }
+
+        &__nav {
+            width: 35%;
+
+            &--toggleBtn {
+                padding: 5% 15%;
+            }
+        }
+
+        &__links {
+            a {
+                margin: 7% 13%;
+            }
+        }
+    }
+}
+
+@media (min-width: $biggerTablet) {
+    .mainPageHTML {
+        display: grid;
+        grid-template-columns: 0.3fr 1.2fr;
+    }
+
+    .sideBar {
+        position: static;
+
+        &__subtitle {
+            display: none;
+        }
+
+        &__nav {
+            width: 100%;
+            position: relative;
+
+            &--toggleBtn {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: $middleDesktop) {
+    .mainPageHTML {
+        display: grid;
+        grid-template-columns: 0.3fr 1.7fr;
+    }
+}
+
+@media (min-width: $biggerDesktop) {
+    .mainPageHTML {
+        display: grid;
+        grid-template-columns: 0.3fr 2.3fr;
+    }
+}

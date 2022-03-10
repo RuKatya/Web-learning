@@ -1,21 +1,15 @@
 import React from "react";
-// import { useState } from "react";
+import { Outlet } from "react-router-dom";
+import SideNavBar from "./htmlNavBar";
 
 function HTMLPage() {
+  const pages = ["/HTML", "History"];
   return (
-    <>
-      <h1>HTML</h1>
-      <h1>HTML</h1>
-      <h1>HTML</h1>
-      <h1>HTML</h1>
-      <h1>HTML</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur,
-        fugit! Accusantium aut doloremque natus architecto quo ullam dignissimos
-        quaerat. Totam dolore inventore obcaecati perferendis veniam accusantium
-        ducimus eveniet? Debitis, beatae?
-      </p>
-    </>
+    <div className="mainPageHTML">
+      <SideNavBar pages={pages} />
+
+      <Outlet />
+    </div>
   );
 }
 

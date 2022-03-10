@@ -31,10 +31,10 @@ function StartFrom() {
         </Link>
 
         {/* ------JS--------- */}
-        <Link to="js" className="startFromInfo__titleJS">
+        <Link to="javascript" className="startFromInfo__titleJS">
           <b>JavaScript</b>
         </Link>
-        <Link to="js" className="startFromInfo__textJS">
+        <Link to="javascript" className="startFromInfo__textJS">
           <img src="./img/JS.png" alt="JS Icon" />
           <p>Узнайте базовые теги для сайта. Постройте собственую разметку.</p>
         </Link>

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import './vars+mixin/index';
 
-@import './navBar';
+
 @import './homePage';
 @import './footer';
+@import './pagesStyle';
 
 
 body {
@@ -14,6 +15,14 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+
+}
+
+.codeExm {
+    background-color: rgba(209, 209, 209, 0.4);
+    padding: 5% 0%;
+    margin: 0% auto;
+    text-align: center;
 }
 
 h1,
@@ -23,9 +32,14 @@ h4,
 h5,
 h6 {
     text-align: center;
-    margin: 1% 0%;
+    margin: 5% 0%;
 }
 
 a {
     text-decoration: none;
+}
+
+p {
+    width: 93%;
+    margin: 5% auto;
 }
